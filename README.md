@@ -11,7 +11,7 @@
 
 ```mermaid
 graph TD
-    subgraph L1 [Рівень сприйняття - Perception Layer]
+    subgraph L1 [Рівень сприйняття - perception layer]
         D1[Датчик температури і вологості повітря BME280]
         D2[Датчик вологості та температури ґрунту]
         D3[Датчик освітленості Lux-метр]

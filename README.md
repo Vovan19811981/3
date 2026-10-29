@@ -30,7 +30,7 @@ graph TD
     subgraph L3 [Рівень обробки - Processing & Storage Layer]
         E1[Локальний Edge-контролер / Node-RED / локальна БД SQLite]
         C1[Хмарна платформа AWS IoT / сервер баз даних Time-series DB]
-    
+    end
 
     subgraph L4 [Рівень застосунків - Application Layer]
         W1[Вебдодаток та Dashboard агронома]

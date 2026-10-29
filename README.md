@@ -11,7 +11,7 @@
 
 ```mermaid
 graph TD
-    subgraph L1 [Рівень сприйняття - perception layer]
+    subgraph L1 [Рівень сприйняття - Perception Layer]
         D1[Датчик температури і вологості повітря BME280]
         D2[Датчик вологості та температури ґрунту]
         D3[Датчик освітленості Lux-метр]
@@ -30,7 +30,7 @@ graph TD
     subgraph L3 [Рівень обробки - Processing & Storage Layer]
         E1[Локальний Edge-контролер / Node-RED / локальна БД SQLite]
         C1[Хмарна платформа AWS IoT / сервер баз даних Time-series DB]
-    end
+    
 
     subgraph L4 [Рівень застосунків - Application Layer]
         W1[Вебдодаток та Dashboard агронома]
